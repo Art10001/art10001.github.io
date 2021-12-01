@@ -1,0 +1,18 @@
+Intention Repeater Change Log (10/27/2020) by Thomas Sweet aka Anthro Teacher
+
+4/13/2019 intentionrepeater.com domain registered.
+1/11/2020 v0.3 Created. Could only go up to 1M iterations per second and was very basic.
+8/6/2020 v4.0 Added Heart/Mind Coherence and Clearing Energetic Interference options.
+9/6/2020 v5.0 Added Gut to Heart/Mind Coherence option. Added "OM" the highest vibration that made a big difference. Automated to allow running without user input from terminal.
+9/7/2020 v5.1 Added Akashic Records option. They provide a greater gamut of emotions such as infinitely subtle variations on Joy. However, may also be very expansive and hard to focus down.
+9/8/2020 v5.2 Changed to use ORGONE AETHER RESONATORS and ORGONE BUBBLES.
+9/8/2020 v5.3 Added INFINITE ENERGY and INTELLIGENT ENERGY and LOGOS and HR 6819. This helps focus down the Intelligent Infinity. LOGOS really softens the energy and makes it more integrating. Very nice. LOGOS is another name for our galaxy's central black hole/consciousness. HR 6819 is the closest black hole system to Earth and has been relevant in working with the Repeater.
+9/9/2020 v5.4 ALL AVAILABLE BENEFICIAL ENERGY GRIDS OF EARTH/GAIA FOCUSED THROUGH CRYSTAL GRID OF EARTH/GAIA. Added NODES AND NULLS OF EARTH/GAIA to work with the grids. Also added 963HZ GOD FREQUENCY. Added SIRIUS B the white dwarf star, since that was what I used during my development to increase my energy density. It makes the energy denser and smoother.
+9/11/2020 v6.0 Added check (not really a timer, more like a sentinel) to stop running at a certain time. Usage: python3 intention_repeater.py YYY8 "HH:MM:SS" "Intention". Use "00:00:00" if running until manually stopped.
+9/12/2020 v6.1 Added ONE INFINITE CREATOR and FULLY OPTIMIZE THE ENERGY.
+9/13/2020 v6.2 Added option for SUPERCOOLED MOST PERFECTLY BALANCED, PURIST AND MOST POWERFUL QUASAR. Stronger and smoother, but can be draining. Also added GUIDED BY HIGHER SELF to help with orchestrating it. The Quasar one is best if intending to manifest something solid (though it can't quite do that yet), rather than using it for a person.
+9/17/2020 v6.3 CANCEL DESTRUCTIVE OR FEARFUL INTENTIONS. SEND ALL SPECIFIED INTENTIONS, AFFIRMATIONS, AND/OR DESIRED MANIFESTATIONS, OR BETTER. PLEASE HELP USER TO RAISE THEIR VIBRATION TO THE LEVEL REQUIRED TO MAKE THEIR SPECIFIED INTENTIONS, AFFIRMATIONS, AND/OR DESIRES MANIFEST. IF THE USER IS UNABLE TO ACHIEVE THE NECESSARY VIBRATION TO MANIFEST THEIR SPECIFIED INTENTIONS, AFFIRMATIONS, AND/OR DESIRES, BUT THERE ARE BEINGS WHO COULD AND THEY ARE WILLING TO ASSIST IN MANIFESTING THE SPECIFIED INTENTIONS, AFFIRMATIONS, AND/OR DESIRES, PLEASE ENLIST THEIR AID.
+9/29/2020 v6.3 still. Just changed some comments.
+10/4/2020 v6.4 Formatted code to clean it up.
+10/27/2020 v7.0 Simplified to: process_energy_statement = ' REGULATE AND INTEGRATE. IT IS DONE. OM.'
+	and eliminated all options but the intensity and intent.

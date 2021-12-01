@@ -1,0 +1,28 @@
+Options All -Indexes
+
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www.)?intentionrepeater.com/.*$ [NC]
+RewriteRule .(jpeg|JPEG|jpe|JPE|jpg|JPG|gif|GIF|png|PNG)$ https://www.intentionrepeater.com/SweetIntentionRepeater.png [R,L]
+RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+RewriteRule .* - [F]
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.intentionrepeater.com/$1 [R=301,L,NE]
+
+# Security Headers
+<IfModule mod_headers.c>
+	Header set X-XSS-Protection "1; mode=block"
+	Header set X-Frame-Options "SAMEORIGIN"
+	Header set X-Content-Type-Options "nosniff"
+	Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains" env=HTTPS
+	Header set Referrer-Policy "same-origin"
+	Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
+    Header set Access-Control-Allow-Origin https://www.intentionrepeater.com
+    #Header add Content-Security-Policy "default-src 'self' https://*.fontawesome.com; script-src 'self' 'sha384-AEHLMlYCPBc5caP7VwNxuOfnDeNWpXw8RLVCmK2kVq7hdBSXDQD8h99PHu9qvsML'; object-src 'self'; child-src https://*.youtube.com; media-src 'self' https://*.youtube.com; style-src 'self' https://*.fontawesome.com;"
+    Header unset Set-Cookie
+</IfModule>

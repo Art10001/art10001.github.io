@@ -1,0 +1,3 @@
+g++-mingw-w64 - GNU C++ compiler for MinGW-w64
+g++-mingw-w64-i686 - GNU C++ compiler for MinGW-w64 targeting Win32
+g++-mingw-w64-x86-64 - GNU C++ compiler for MinGW-w64 targeting Win64

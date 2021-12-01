@@ -1,0 +1,46 @@
+body {
+ background-image: url(/images/Background.jpg);
+}
+
+a {
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+a.fontawesome {
+    font-size: 48px;
+    color: gray;
+}
+
+p.boldtext {
+    size: +1;
+    color: white;
+    font-weight: bold;
+}
+
+p.normaltext {
+    size: +1;
+    color: white;
+    font-weight: normal;
+}
+
+h1.errorstyle {
+    color: white;
+}
+
+table {
+    border: 0;
+    cellspacing: 2;
+}
+
+div.boldtext {
+    z-index: 2;
+    position: relative;
+    right: 0px;
+    top: 10px;
+    width: 1000px;
+    padding: 10px;
+    color: white;
+    font-size:20px;
+    border: #000000;
+}

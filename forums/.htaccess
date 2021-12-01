@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^forums\.intentionrepeater\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.forums\.intentionrepeater\.com$
+RewriteRule ^/?$ "https\:\/\/intentionrepeater\.boards\.net\/" [R=301,L]
+
